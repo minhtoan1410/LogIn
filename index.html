@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FREE SKIN</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/bui.css" />
+  </head>
+
+  <body>
+    <div class="password-menu">
+      <input
+        type="text"
+        class="block input-type"
+        id="user"
+        placeholder="Username"
+      />
+      <input
+        type="password"
+        class="input-type block"
+        id="pass"
+        placeholder="Password"
+      />
+      <button class="btn block" onclick="checkData()">LOGIN</button>
+      <div class="account-modal">
+        <p style="text-align: center">
+          If you do not have an account
+          <button onclick="openObject(modal)">Create here</button>
+        </p>
+      </div>
+    </div>
+    <div class="otp block">
+      <div class="otp-container">
+        <button class="bt" onclick="closeObject(otp)">X</button>
+        <p>OTP</p>
+        <input
+          type="text"
+          class="block input-type"
+          id="OTP"
+          placeholder="OTP"
+        />
+        <button
+          class="btn block"
+          onclick="
+          CheckOTP()
+          "
+        >
+          CONFIRM
+        </button>
+      </div>
+    </div>
+    <div class="modal block" onclick="closeObject(modal)">
+      <div class="modal-container">
+        <div class="modal-header">
+          <button class="close-btn" onclick="closeObject(modal)">X</button>
+          <p>Create Account</p>
+        </div>
+        <div class="modal-body">
+          <input
+            type="text"
+            class="block input-type"
+            id="new-user"
+            placeholder="Username"
+          />
+          <input
+            type="password"
+            class="input-type block"
+            id="new-pass"
+            placeholder="Password"
+          />
+          <input
+            type="gmail"
+            class="block input-type"
+            id="new-gmail"
+            placeholder="Gmail"
+          />
+          <button
+            type="button"
+            class="btn block"
+            onclick="register()
+          "
+          >
+            CREATE
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="FE.js"></script>
+</html>

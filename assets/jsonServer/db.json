@@ -1,0 +1,45 @@
+{
+  "userData": [
+    {
+      "id": "0",
+      "name": "Toan",
+      "password": "123",
+      "gmail": "phanminht971@gmail.com"
+    },
+    {
+      "id": "32b3",
+      "username": "a",
+      "password": "f",
+      "gmail": "af@gmail.com"
+    }
+  ],
+  "userMap": {
+    "Toan": 0
+  },
+  "register": [
+    {
+      "id": "bfd7",
+      "username": "asdas",
+      "password": "f",
+      "gmail": "fdsfds@gmail.com"
+    },
+    {
+      "id": "4b5d",
+      "username": "fsa",
+      "password": "dsadsa",
+      "gmail": "va@gmail.com"
+    },
+    {
+      "id": "f03f",
+      "username": "f",
+      "password": "a",
+      "gmail": "phanffminht971@gmail.com"
+    },
+    {
+      "id": "6b8b",
+      "username": "f",
+      "password": "s",
+      "gmail": "a@gmail.com"
+    }
+  ]
+}
